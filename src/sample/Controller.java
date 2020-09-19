@@ -27,6 +27,8 @@ class ButtonOFF extends Thread {
             label.setVisible(true);
             try {
                 Thread.sleep(4000);
+                System.out.println(123);
+                //gbjrnflkd
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
